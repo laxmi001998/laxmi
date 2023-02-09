@@ -5,9 +5,12 @@
     <classes>
       <class name="testt.LoginTest">
         <methods>
+          <include name="verifyBuildTitleName"/>
           <include name="verifyTitleOfLoginPage"/>
           <include name="tearDownEnvironment"/>
+          <include name="verifyCurrentUrlOfPage"/>
           <include name="pageObjects"/>
+          <include name="verifyLoginWithCorrectCredentials"/>
           <include name="initBrowser"/>
         </methods>
       </class> <!-- testt.LoginTest -->
